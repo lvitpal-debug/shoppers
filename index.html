@@ -9,6 +9,37 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous"> 
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 	<title></title>
+	<style>
+html,body{
+overflow-x:hidden;
+}
+
+img{
+max-width:100%;
+height:auto;
+}
+
+@media(max-width:768px){
+
+h1{
+font-size:2rem;
+}
+
+h2{
+font-size:1.8rem;
+}
+
+h3{
+font-size:1.4rem;
+}
+
+.container,
+.container-fluid{
+padding-left:15px;
+padding-right:15px;
+}
+}
+</style>
 </head>
 <body>
 	<nav class="navbar navbar-expand-lg navbar-light bg-light p-3">
@@ -86,7 +117,7 @@
 <div class="container-fluid p-0">
   <div class="row g-0">
     <div class="col-12">
-     <video class="w-100" autoplay muted loop controls playsinline>
+     <video class="w-100" autoplay muted loop  playsinline>
     <source src="video/dior.mp4" type="video/mp4">
 </video>
     </div>
@@ -95,16 +126,17 @@
 	
 <div class="container-fluid pt-3">
 	<div class="row">
-		<div class="col border border-dark">
+		<div class="col-lg-4 col-md-6 col-12 border border-dark mb-3">
 			<img class="w-100 h-100" src="Images/sasuvage.jpg">
 			<!-- <h1>img1</h1> -->
 		</div>
-		<div class="col border border-dark">
+	<div class="col-lg-4 col-md-6 col-12 border border-dark mb-3">
 			<img class="w-100 h-100" src="Images/coco chanel.jpg">
 			
 		</div>
-		<div class="col">
-			<img  class="w-100 h-100" src="Images/pexels-sylwester-ficek-154797634-27097341.jpg">
+		
+		<div class="col-lg-4 col-md-6 col-12 mb-3">
+            <img class="img-fluid" src="Images/pexels-sylwester-ficek-154797634-27097341.jpg">
 			
 		</div>
 	</div>
