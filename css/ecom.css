@@ -1,0 +1,8 @@
+*{font-family: 'Aptos Display';box-sizing: border-box;}
+/*font-family:agency fb*/
+a{text-decoration: none;color: black}
+.font1{font-family: 'Bahnschrift'}
+.bg{background-image: linear-gradient(to right,rgba(149,77,34,.4),rgba(149,77,34,0))}
+.grad{
+	 color: green;
+}
